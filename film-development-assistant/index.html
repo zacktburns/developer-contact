@@ -1,3 +1,6 @@
+---
+title: Film Development Assistant
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +12,7 @@
 
     <title>Film Development Assistant - Zack Burns</title>
 
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -17,14 +20,14 @@
     <header class="header">
         <nav class="nav">
             <div class="nav-brand">
-                <a href="../" style="text-decoration: none; color: inherit;">
+                <a href="{{ site.baseurl }}/" style="text-decoration: none; color: inherit;">
                     <h1>Zack Burns</h1>
                 </a>
             </div>
             <ul class="nav-menu">
-                <li><a href="../#about" class="nav-link">About</a></li>
-                <li><a href="../#apps" class="nav-link">My Apps</a></li>
-                <li><a href="../#contact" class="nav-link">Contact</a></li>
+                <li><a href="{{ site.baseurl }}/#about" class="nav-link">About</a></li>
+                <li><a href="{{ site.baseurl }}/#apps" class="nav-link">My Apps</a></li>
+                <li><a href="{{ site.baseurl }}/#contact" class="nav-link">Contact</a></li>
                 <li><a href="#features" class="nav-link">Features</a></li>
             </ul>
             <div class="nav-toggle">
@@ -55,7 +58,7 @@
                         </div>
                     </div>
                     <div class="hero-image">
-                        <img src="../assets/FilmDevAssistantIcon.png" alt="Film Development Assistant App Icon" class="app-icon-large">
+                        <img src="{{ site.baseurl }}/assets/FilmDevAssistantIcon.png" alt="Film Development Assistant App Icon" class="app-icon-large">
                     </div>
                 </div>
             </div>
@@ -203,21 +206,21 @@
                         <i class="fas fa-question-circle"></i>
                         <h3>Need Help?</h3>
                         <p>Have questions about using the app or film development techniques?</p>
-                        <a href="../#contact" class="btn btn-secondary">Contact Support</a>
+                        <a href="{{ site.baseurl }}/#contact" class="btn btn-secondary">Contact Support</a>
                     </div>
 
                     <div class="support-card">
                         <i class="fas fa-lightbulb"></i>
                         <h3>Feature Request</h3>
                         <p>Have an idea for a new feature that would improve your workflow?</p>
-                        <a href="../#contact" class="btn btn-secondary">Share Your Ideas</a>
+                        <a href="{{ site.baseurl }}/#contact" class="btn btn-secondary">Share Your Ideas</a>
                     </div>
 
                     <div class="support-card">
                         <i class="fas fa-bug"></i>
                         <h3>Found a Bug?</h3>
                         <p>Report issues to help make the app better for everyone.</p>
-                        <a href="../#contact" class="btn btn-secondary">Report Issue</a>
+                        <a href="{{ site.baseurl }}/#contact" class="btn btn-secondary">Report Issue</a>
                     </div>
                 </div>
             </div>
@@ -244,6 +247,6 @@
         </div>
     </footer>
 
-    <script src="../script.js"></script>
+    <script src="{{ site.baseurl }}/script.js"></script>
 </body>
 </html>
