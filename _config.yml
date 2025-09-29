@@ -1,0 +1,27 @@
+# GitHub Pages Configuration
+title: "Developer Contact Page"
+description: "Professional contact page for app developers to collect user feedback"
+url: "https://zacktburns.github.io"
+baseurl: "/developer-contact"
+
+# SEO Settings
+author:
+  name: "Zack Burns"
+  email: "zack.t.burns@gmail.com"
+
+# GitHub Pages settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - LICENSE
+  - node_modules/
+  - vendor/
+
+# Include custom files
+include:
+  - .htaccess
