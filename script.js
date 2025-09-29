@@ -194,7 +194,7 @@ function handleFormSubmission(formData) {
     // Create mailto link (since this is a static site)
     const subject = `Contact Form: ${formData.category}`;
     const body = createEmailBody(formData);
-    const mailtoLink = `mailto:your-email@example.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:zack.t.burns@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
     // Show success message
     showFormMessage('Thank you for your message! Your default email client should open with a pre-filled email. If it doesn\'t, please copy the information below and send it manually.', 'success');
@@ -461,17 +461,6 @@ document.querySelectorAll('a[href^="mailto:"]').forEach(emailLink => {
         });
     });
 });
-
-// Console message for developers
-console.log(`
-🚀 Developer Contact Page
-Built with vanilla HTML, CSS, and JavaScript
-Feel free to customize this template for your needs!
-
-For questions or feedback about this template:
-- Check the GitHub repository
-- Submit an issue or pull request
-`);
 
 // Service worker registration for PWA capabilities (optional)
 if ('serviceWorker' in navigator) {
